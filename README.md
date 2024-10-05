@@ -51,4 +51,15 @@ Attributes: Return_Id (Primary Key), Return_cust, Return_book_name, Return_date,
 * Retrieve employees who manage branches along with their branch addresses.
 * List customers who issued books with a rental price above Rs. 25.
 
+## How to Use
+### 1.Set Up the Database:
 
+* Run the CREATE DATABASE library; command to create the database.
+* Use the USE library; command to start working in the library database.
+* Execute the table creation SQL commands in sequence.
+### 2.Insert Sample Data:
+
+* Execute the provided INSERT INTO statements to populate the tables with initial sample data.
+### Run Queries:
+
+* Execute the sample queries to retrieve various types of data from the system, such as available books, employees’ salaries, or customers who have issued books.
