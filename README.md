@@ -6,14 +6,14 @@ This project is a SQL-based library management system that maintains information
 * Employees
 * Books
 * Customers
-* Issue and Return Status of books
+* Issue Status
+* Return Status 
 The database includes various tables for storing and managing data related to books issued by customers, employees working in branches, and other operations like book returns. The SQL queries provided help to interact with this data and retrieve meaningful insights.
 
 ## Database Schema
 ### Branch Table
 Stores details about different library branches.
 Attributes: Branch_no (Primary Key), Manager_Id, Branch_address, Contact_no.
-
 ### Employee Table
 Stores details about employees working in different branches.
 Attributes: Emp_Id (Primary Key), Emp_name, Position, Salary, Branch_no (Foreign Key refers to Branch_no in Branch table).
