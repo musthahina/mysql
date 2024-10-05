@@ -71,8 +71,6 @@ Implements foreign key relationships between different entities such as Branch, 
 Provides SQL queries to retrieve, filter, and display data based on specific criteria.
 ### Data Insights: 
 Offers reporting capabilities such as counting employees per branch, filtering customers based on registration date, and checking the availability of books.
-## Usage
-This SQL-based library system is designed to be used in MySQL or any other SQL-compliant database environment. Users can modify or extend the schema and queries based on specific requirements.
 
 ## Future Improvements
 * Adding more complex queries such as aggregate functions, customer transaction histories, and overdue book tracking.
