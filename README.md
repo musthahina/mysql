@@ -2,7 +2,7 @@
 ## Description
 This project is a SQL-based library management system that maintains information about the following entities:
 
-### Branches
+* Branches
 ### Employees
 ### Books
 ### Customers
