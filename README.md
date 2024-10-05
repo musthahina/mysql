@@ -63,3 +63,19 @@ Attributes: Return_Id (Primary Key), Return_cust, Return_book_name, Return_date,
 ### Run Queries:
 
 * Execute the sample queries to retrieve various types of data from the system, such as available books, employees’ salaries, or customers who have issued books.
+
+## Key Features
+### Relational Design: 
+Implements foreign key relationships between different entities such as Branch, Employee, Customer, Books.
+### Querying Flexibility: 
+Provides SQL queries to retrieve, filter, and display data based on specific criteria.
+### Data Insights: 
+Offers reporting capabilities such as counting employees per branch, filtering customers based on registration date, and checking the availability of books.
+## Usage
+This SQL-based library system is designed to be used in MySQL or any other SQL-compliant database environment. Users can modify or extend the schema and queries based on specific requirements.
+
+## Future Improvements
+* Adding more complex queries such as aggregate functions, customer transaction histories, and overdue book tracking.
+* Implementing triggers for automatic updates on book status upon issuing and returning.
+## Author
+Musthahina P
