@@ -29,3 +29,26 @@ Attributes: Issue_Id (Primary Key), Issued_cust (Foreign Key refers to Customer_
 ### ReturnStatus Table
 Tracks books that have been returned by customers.\
 Attributes: Return_Id (Primary Key), Return_cust, Return_book_name, Return_date, Isbn_book2 (Foreign Key refers to ISBN in Books table).
+
+
+## SQL Queries
+### Table Creation
+* Each table is created with relevant attributes, primary keys, and foreign key relationships.
+* Example: The Branch table is linked to the Employee table via the Branch_no attribute.
+## Data Insertion
+* Sample data is inserted into the tables using INSERT INTO statements.
+## Sample Queries
+* Retrieve all available books, listing their titles, categories, and rental prices.
+* List employee names and salaries in descending order of salary.
+* Retrieve the book titles and corresponding customers who have issued those books.
+* Display the total number of books in each category.
+* Retrieve employee details whose salary exceeds Rs. 50,000.
+* List customers who registered before a specific date and have not issued any books yet.
+* Display the count of employees in each branch.
+* Retrieve names of customers who issued books in June 2023.
+* Query specific book titles that contain the word "history".
+* Retrieve branch numbers where the employee count exceeds 5.
+* Retrieve employees who manage branches along with their branch addresses.
+* List customers who issued books with a rental price above Rs. 25.
+
+
