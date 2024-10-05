@@ -7,7 +7,7 @@ This project is a SQL-based library management system that maintains information
 * Books
 * Customers
 * Issue Status
-* Return Status 
+* Return Status \
 The database includes various tables for storing and managing data related to books issued by customers, employees working in branches, and other operations like book returns. The SQL queries provided help to interact with this data and retrieve meaningful insights.
 
 ## Database Schema
